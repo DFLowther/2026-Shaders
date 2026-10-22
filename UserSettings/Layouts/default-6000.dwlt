@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Dissolve
+  m_Title: Scene
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 37
+  controlID: 95
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -314,7 +314,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: MaterialGraphEditWindow
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -323,16 +323,16 @@ MonoBehaviour:
     y: 0
     width: 1103
     height: 621
-  m_MinSize: {x: 52, y: 76}
+  m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
   - {fileID: 22}
   - {fileID: 16}
   - {fileID: 14}
-  m_Selected: 3
-  m_LastSelected: 3
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -912,7 +912,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_LastSelectedObjectID:
-    m_rawData: 568105584918842650
+    m_rawData: 0
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1301,20 +1301,21 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Shaders
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\DFLowther6916\Documents\Projects\Shaders
+  m_LastProjectPath: C:\Users\DFLowther6916\Documents\GitKraken\DFLowther_2026Shaders\2026
+    Shaders
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_rawData: 568105584918839966
+    - m_rawData: 568105584918839936
     m_LastClickedID:
-      m_rawData: 568105584918839966
+      m_rawData: 568105584918839936
     m_ExpandedIDs:
-    - m_rawData: 568105589213755740
+    - m_rawData: 568105589213755764
     - m_rawData: 0
-    - m_rawData: 568105584918839958
+    - m_rawData: 568105584918839626
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1346,7 +1347,9 @@ MonoBehaviour:
     m_SelectedIDs: []
     m_LastClickedID:
       m_rawData: 0
-    m_ExpandedIDs: []
+    m_ExpandedIDs:
+    - m_rawData: 0
+    - m_rawData: 568105584918839626
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1511,9 +1514,7 @@ MonoBehaviour:
       m_LastClickedID:
         m_rawData: 0
       m_ExpandedIDs:
-      - m_rawData: 568105589213753918
-      - m_rawData: 568105589213754274
-      - m_rawData: 568105589213754868
+      - m_rawData: 568105589213754804
       - m_rawData: 568105589213755986
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -1998,9 +1999,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 6.3261876, y: 18.110931, z: -4.766393}
+    m_Target: {x: 40.566273, y: 11.730663, z: 19.468693}
     speed: 2
-    m_Value: {x: 6.3261876, y: 18.110931, z: -4.766393}
+    m_Value: {x: 40.566273, y: 11.730663, z: 19.468693}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2038,7 +2039,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_OffsetAlongAxis: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -2047,13 +2048,13 @@ MonoBehaviour:
     m_gridOpacity: 0.5
     m_NearestPlaneToHandleMode: 0
   m_Rotation:
-    m_Target: {x: 0.13880141, y: -0.32165253, z: 0.047734823, w: 0.93543464}
+    m_Target: {x: 0.18795106, y: -0.21432841, z: 0.042076696, w: 0.95761013}
     speed: 2
-    m_Value: {x: 0.1388699, y: -0.3202422, z: 0.047525555, w: 0.9358961}
+    m_Value: {x: 0.18938254, y: -0.21425971, z: 0.042397115, w: 0.9573033}
   m_Size:
-    m_Target: 20.724825
+    m_Target: 38.986164
     speed: 2
-    m_Value: 20.724825
+    m_Value: 37.307335
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -2073,7 +2074,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: 0.0701665, y: -0.1280154, z: 0.009084472, w: 0.98927003}
   m_LastSceneViewOrtho: 0
   m_Viewpoint:
     m_SceneView: {fileID: 21}
